@@ -1,5 +1,5 @@
 
-## From Scratch Demos 🎯
+## From Scratch Demo:s 🎯
 
 [Shell Game](https://github.com/alchemycodelab/shell-game-november/)
 
@@ -28,23 +28,23 @@
 
 ## Half Baked Exercises 🍞
 
-[Half-Baked Hide and Seek](https://github.com/alchemycodelab/half-baked-web-01-hide-and-seek)
+[Half-Baked Project: Hide and Seek](https://github.com/alchemycodelab/Half-Baked Project:-web-01-hide-and-seek)
 
-[Half-Baked Character Designer](https://github.com/alchemycodelab/half-baked-web-01-character-designer)
+[Half-Baked Project: Character Designer](https://github.com/alchemycodelab/Half-Baked Project:-web-01-character-designer)
 
-[Half-Baked Soccer Scorekeeper](https://github.com/alchemycodelab/half-baked-web-01-soccer-scorekeeper)
+[Half-Baked Project: Soccer Scorekeeper](https://github.com/alchemycodelab/Half-Baked Project:-web-01-soccer-scorekeeper)
 
-[Half-Baked Mushroom Festival](https://github.com/alchemycodelab/half-baked-web-01-mushroom-festival)
+[Half-Baked Project: Mushroom Festival](https://github.com/alchemycodelab/Half-Baked Project:-web-01-mushroom-festival)
 
-[Half-Baked Supabase Adopt a Dog](https://github.com/alchemycodelab/half-baked-web-01-adopt-a-dog)
+[Half-Baked Project: Supabase Adopt a Dog](https://github.com/alchemycodelab/Half-Baked Project:-web-01-adopt-a-dog)
 
-[Half-Baked Supabase Soccer Scorekeeper](https://github.com/alchemycodelab/half-baked-web-01-soccer-scorekeeper-supabase)
+[Half-Baked Project: Supabase Soccer Scorekeeper](https://github.com/alchemycodelab/Half-Baked Project:-web-01-soccer-scorekeeper-supabase)
 
-[Half-Baked Supabase Character Designer](https://github.com/alchemycodelab/half-baked-web-01-character-designer-supabase)
+[Half-Baked Project: Supabase Character Designer](https://github.com/alchemycodelab/Half-Baked Project:-web-01-character-designer-supabase)
 
-[Half-Baked Supabase Todo App](https://github.com/alchemycodelab/half-baked-web-01-todo-supabase)
+[Half-Baked Project: Supabase Todo App](https://github.com/alchemycodelab/Half-Baked Project:-web-01-todo-supabase)
 
-[Half-Baked Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/half-baked-web-01-fuzzy-bunny-organizer)
+[Half-Baked Project: Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/Half-Baked Project:-web-01-fuzzy-bunny-organizer)
 
 ## Code Challenges 🧠
 

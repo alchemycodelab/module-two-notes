@@ -1,21 +1,19 @@
 ## Live Sites 💻 
 
-[Hide and Seek](https://alchemycodelab.github.io/web-01-hide-and-seek/)
+[Canonical City Builder](https://github.com/alchemycodelab/city-builder-react)
 
-[Character Designer](https://alchemycodelab.github.io/web-01-character-designer/)
+[Canonical Busy Town](https://github.com/alchemycodelab/busy-town-react)
 
-[Soccer Scorekeeepr](https://alchemycodelab.github.io/web-01-soccer-scorekeeper/)
+[Canonical Goblin Builder](https://github.com/alchemycodelab/goblin-builder-react)
 
-[Mushroom Festival](https://alchemycodelab.github.io/web-01-mushroom-festival/)
+[Canonical Async Authors Filter](https://github.com/alchemycodelab/authors-fetch-react)
 
-[Adopt-a-Dog](https://alchemycodelab.github.io/web-01-adopt-a-dog/)
+[Canonical Async Beanie Babies List/Detail App](https://github.com/alchemycodelab/beanie-babies-list-detail-react)
 
-[Soccer Scorekeeper Supabase](https://alchemycodelab.github.io/web-01-soccer-scorekeeper-supabase/)
+[Canonical Async Board Game CRUD Inventory](https://github.com/alchemycodelab/board-game-inventory-react)
 
-[Character Designer Supabase](https://fantastic-carnival-aef94da0.pages.github.io/)
+[Canonical Async Proxy App](https://github.com/alchemycodelab/yelp-proxy-react)
 
-[Todos Supabase](https://alchemycodelab.github.io/web-01-todo-supabase/)
+[Canonical Async Shopping List](https://github.com/alchemycodelab/auth-shopping-list-react)
 
-[Fuzzy Bunny Organizer](https://alchemycodelab.github.io/web-01-fuzzy-bunny-organizer/)
-
-[Yawp Restaurant Reviewer](https://upgraded-winner-147551f5.pages.github.io/)
+[Canonical Async Yawp Restaurant Reviewer](https://github.com/alchemycodelab/yawp-react)

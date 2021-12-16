@@ -1,21 +1,19 @@
 ## Canonical Deliverables
 
-[Canonical Hide and Seek](https://github.com/alchemycodelab/web-01-hide-and-seek)
+[Canonical City Builder](https://github.com/alchemycodelab/city-builder-react)
 
-[Canonical Character Designer](https://github.com/alchemycodelab/web-01-character-designer)
+[Canonical Busy Town](https://github.com/alchemycodelab/busy-town-react)
 
-[Canonical Soccer Scorekeeepr](https://github.com/alchemycodelab/web-01-soccer-scorekeeper)
+[Canonical Goblin Builder](https://github.com/alchemycodelab/goblin-builder-react)
 
-[Canonical Mushroom Festival](https://github.com/alchemycodelab/web-01-mushroom-festival)
+[Canonical Async Authors Filter](https://github.com/alchemycodelab/authors-fetch-react)
 
-[Canonical Supabase Adopt a Dog](https://github.com/alchemycodelab/web-01-adopt-a-dog)
+[Canonical Async Beanie Babies List/Detail App](https://github.com/alchemycodelab/beanie-babies-list-detail-react)
 
-[Canonical Supabase Soccer Scorekeeper](https://github.com/alchemycodelab/web-01-soccer-scorekeeper-supabase)
+[Canonical Async Board Game CRUD Inventory](https://github.com/alchemycodelab/board-game-inventory-react)
 
-[Canonical Supabase Character Designer](https://github.com/alchemycodelab/web-01-character-designer-supabase)
+[Canonical Async Proxy App](https://github.com/alchemycodelab/yelp-proxy-react)
 
-[Canonical Supabase Todo App](https://github.com/alchemycodelab/web-01-todo-supabase)
+[Canonical Async Shopping List](https://github.com/alchemycodelab/auth-shopping-list-react)
 
-[Canonical Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/web-01-fuzzy-bunny-organizer)
-
-[Canonical Yawp Restaurant Reviewer](https://github.com/alchemycodelab/web-01-yawp)
+[Canonical Async Yawp Restaurant Reviewer](https://github.com/alchemycodelab/yawp-react)

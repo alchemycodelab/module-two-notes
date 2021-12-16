@@ -1,26 +1,17 @@
-## The Pattern of Patterns
+# The 10 React Patterns
 
-All patterns revolve around these 4 fundamental activities:
+1) [Passing Props](#1-)
+1) [Mapping an Array](#2-)
+1) [Setting State](#3-)
+1) [Conditional Rendering with Terneries](#4-)
+1) [Update a List](#5-)
+1) [Child-to-Parent Communication with Callbacks](#6-)
+1) [Async Fetch on Load](#7-)
+1) [Async Fetch on Click](#8-)
+1) [List / Detail](#9-)
+1) [List of Clickables](#10-)
 
-|  | Get | Set |
-|-----------|----|-------|
-| **State** | 1) get State | 2) set State |
-| **DOM**| 3) get DOM  |  4) set DOM |
-
-# The 10 Patterns
-
-1) [Wiggle](#1-wiggle)
-1) [Event Handler](#2-event-handler)
-1) [Render function](#3-render-function)
-1) [Display Function](#4-display-function)
-1) [Display a list](#5-display-a-list)
-1) [Update a list](#6-update-a-list)
-1) [Async fetch on 'load'](#7-async-fetch-on-load)
-1) [Async update a list on click](#8-async-update-a-list-on-click)
-1) [List / Detail](#9-list--detail)
-1) [List of clickables](#10-list-of-clickables)
-
-## 1) Wiggle 
+## 1) Passing Props 
 
 The main .js file for each of your pages should follow this basic format:
 
@@ -31,7 +22,7 @@ The main .js file for each of your pages should follow this basic format:
 - L: `let` state
 - E: and describe our events
 
-## 2) Event handler 
+## 2) Mapping an Array 
     1) add click listener to a dom element
     2) optional: get form info
     3) change state
@@ -49,7 +40,7 @@ button.addEventListener('click', () => {
 ```
 
 
-## 3) Render function 
+## 3) Setting State 
     - A pure function that takes in an object and returns an HTML element _without appending it to any external DOM_
     - Should always live in a separate file, to be imported then called.
 
@@ -69,7 +60,7 @@ export function renderCat(cat) {
 }
 ```
 
-## 4) Display function 
+## 4) Conditional Rendering with Terneries 
     - An impure function that appends to or mutates existing DOM
     - Often uses global state
     - Often loops or calls render functions. 
@@ -89,7 +80,7 @@ function displayStats() {
 <!-- ### Examples include: 
 - character creator displayStats -->
 
-## 5) Display a list
+## 5) Update a List
     1) loop through array
     2) for each item render an html element
     3) append each element to the dom
@@ -106,7 +97,7 @@ function displayStats() {
     }
 ```
 
-## 6) Update a list
+## 6) Child-to-Parent Communication with Callbacks
     1) add (or remove) item to state array
     2) clear dom list
     3) loop through updated list
@@ -122,7 +113,7 @@ finishGameButton.addEventListener('click', () => {
 });
 ```
 
-## 7) Async fetch on 'load'
+## 7) Async Fetch on Load
     1) add async 'load' listener to the window
     2)  await function to fetch data from supabase
     3) render and append fetched data to dom
@@ -140,7 +131,7 @@ window.addEventListener('load', async() => {
 });
 ```
 
-## 8) Async update a list on click
+## 8) Async Fetch on Click
     1) add async 'click' listener
     2) await function to manipulate data in supabase
     3) refetch updated data
