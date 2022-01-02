@@ -3,6 +3,7 @@
 ## Gotchas!
 - `className`
 - importing images vs public directory
+    - background images in CSS are weird and must always live in `src`
 - inline styles
 - `<>` fragments and "Adjacent JSX"
 
