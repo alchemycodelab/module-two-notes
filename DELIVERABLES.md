@@ -1,29 +1,23 @@
 
-## From Scratch Demo:s 🎯
-
-[Shell Game](https://github.com/alchemycodelab/shell-game-november/)
-
-[City Builder](https://github.com/alchemycodelab/city-builder)
+## From Scratch Demos 🎯
 
 ## Bug Hunts 🐛
 
-[Bug Hunt: Hide and Seek](https://github.com/alchemycodelab/bug-hunt-web-01-hide-and-seek/)
-
-[Bug Hunt: Character Designer](https://github.com/alchemycodelab/bug-hunt-web-01-character-designer)
+[Bug Hunt: React Zodiac](https://github.com/alchemycodelab/react-zodiac-bug-hunt)
 
 [Bug Hunt: Soccer Scorekeeper](https://github.com/alchemycodelab/bug-hunt-web-01-soccer-scorekeeper)
 
-[Bug Hunt: Mushroom Festival](https://github.com/alchemycodelab/bug-hunt-web-01-mushroom-festival)
+[Bug Hunt: React Busy Town](https://github.com/alchemycodelab/react-busy-town-bug-hunthunt)
 
-[Bug Hunt: Supabase Adopt a Dog](https://github.com/alchemycodelab/bug-hunt-web-01-adopt-a-dog)
+[Bug Hunt: React Goblin Builder](https://github.com/alchemycodelab/react-goblin-builder-bug-hunt)
 
-[Bug Hunt: Supabase Soccer Scorekeeper](https://github.com/alchemycodelab/bug-hunt-web-01-soccer-scorekeeper-supabase)
+[Bug Hunt: React Author Fetch](https://github.com/alchemycodelab/react-author-fetch-bug-hunt)
 
-[Bug Hunt: Supabase Character Designer](https://github.com/alchemycodelab/bug-hunt-web-01-character-designer-supabase)
+[Bug Hunt: React Beanie Babies](https://github.com/alchemycodelab/react-beanie-babies-bug-hunt)
 
-[Bug Hunt: Supabase Todo App](https://github.com/alchemycodelab/bug-hunt-web-01-todo-supabase)
+[Bug Hunt: React Board Game Inventory](https://github.com/alchemycodelab/react-board-game-inventory-bug-hunt)
 
-[Bug Hunt: Supabase Fuzzy Bunny Organizer](https://github.com/alchemycodelab/bug-hunt-web-01-fuzzy-bunny-organizer)
+[Bug Hunt: React Auth Shopping List](https://github.com/alchemycodelab/react-auth-shopping-list-bug-hunt)
 
 
 ## Half Baked Exercises 🍞
