@@ -1,31 +1,25 @@
-## [01 - React Zodiac](https://github.com/alchemycodelab/Half-Baked Project:-js-hide-and-seek)
-![](./assets/hide-and-seek.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-hide-and-seek)
+## 01 - Zodiac List
+[Live Site](https://alchemy-react-zodiac.netlify.app/)
+## 02 - Busy Town
+[Live Site](https://lucid-clarke-dc44ce.netlify.app/)
+## 03 - City Builder
+[Live Site](https://keen-babbage-8e7d8b.netlify.app/)
 
-## [02 - Cookie Clicker](https://github.com/alchemycodelab/Half-Baked Project:-js-character-designer)
-![](./assets/character-designer.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-character-designer)
+## 04 - Goblin Builder
+[Live Site](https://sad-pike-d255ed.netlify.app/)
 
-## [03 - Character Maker](https://github.com/alchemycodelab/Half-Baked Project:-js-soccer-scorekeeper)
-![](./assets/soccer-scorekeeper.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-soccer-scorekeeper)
+## 05 - Async Author Fetch
+[Live Site](https://laughing-sinoussi-020cd5.netlify.app/)
 
-## [04 - Poll Tracker](https://github.com/alchemycodelab/Half-Baked Project:-js-mushroom-festival)
-![](./assets/mushroom-festival.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-mushroom-festival)
+## 06 - Async Beanie Babies List/Detail
+[Live Site](https://ecstatic-jackson-7ce76f.netlify.app/)
 
-## [05 - Async Country Fetch](https://github.com/alchemycodelab/Half-Baked Project:-js-adopt-a-dog)
-![](./assets/adopt-a-dog-detail.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-adopt-a-dog)
-![](./assets/adopt-a-dog-list.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-adopt-a-dog)
+## 07 - Async Yelp Proxy
+## 08 - Supabase Board Game Inventory
+[Live Site](https://agitated-curran-e4cde6.netlify.app/)
 
-## [06 - Async Team Viewer](https://github.com/alchemycodelab/Half-Baked Project:-js-soccer-scorekeeper-supabase)
-![](./assets/soccer-scorekeeper.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-soccer-scorekeeper-supabase)
+## 09 - Supabase Shopping List
+[Live Site](https://objective-khorana-959a7c.netlify.app/)
 
-## [07 - Async Fan Site](https://github.com/alchemycodelab/Half-Baked Project:-js-character-designer-supabase)
-![](./assets/character-designer.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-character-designer-supabase)
-
-## [08 - CRUD Lister](https://github.com/alchemycodelab/Half-Baked Project:-js-fuzzy-bunny-organizer)
-![](./assets/fuzzy-bunnies.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-fuzzy-bunny-organizer)
-
-## [09 - Supabase Todo App](https://github.com/alchemycodelab/Half-Baked Project:-js-todo-supabase)
-![](./assets/todos.png)](https://github.com/alchemycodelab/Half-Baked Project:-js-todo-supabase)
-
-## [10 - Supabase Team Manager](https://github.com/alchemycodelab/yawp-vanilla-js)
-![](./assets/yawp-search.png)](https://github.com/alchemycodelab/yawp-vanilla-js)
-![](./assets/yawp-detail.png)](https://github.com/alchemycodelab/yawp-vanilla-js)
+## 10 - Supabase Yawp Restaurant Reviewer
+[Live Site](https://objective-khorana-959a7c.netlify.app/)
