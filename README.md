@@ -33,6 +33,3 @@
 ## 09 - Supabase Shopping List
 [Live Site](https://objective-khorana-959a7c.netlify.app/)
 ![image](https://user-images.githubusercontent.com/16160135/150246071-38308193-a927-4f89-8979-19f866f4e9d9.png)
-
-## 10 - Supabase Yawp Restaurant Reviewer
-[Live Site](https://objective-khorana-959a7c.netlify.app/)
