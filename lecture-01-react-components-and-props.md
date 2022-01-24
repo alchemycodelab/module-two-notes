@@ -34,7 +34,3 @@ function Main() {
     return <section>This is my first react app</section>
 }
 ```
-
-## Zodiac
-
-## Animal Farm
