@@ -14,9 +14,11 @@ Take a look at the code below. Make a quick drawing predict what will be rendere
 ```js
 export default function App() {
     return (
-        <Header username='dr cool' />
-        <Main />
-        <Footer phone='(212) 555-4345' />
+        <div>
+            <Header username='dr cool' />
+            <Main />
+            <Footer phone='(212) 555-4345' />
+        </div>
     )
 }
 
