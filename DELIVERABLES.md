@@ -1,5 +1,6 @@
 
-## From Scratch Demos 🎯
+## From Scratch 🎯
+[Animal Farm](https://github.com/alchemycodelab/react-animal-farm-rubric/)
 
 ## Bug Hunts 🐛
 
