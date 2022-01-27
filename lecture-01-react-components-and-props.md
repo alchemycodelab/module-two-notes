@@ -6,6 +6,7 @@
     - background images in CSS are weird and must always live in `src`
 - inline styles
 - `<>` fragments and "Adjacent JSX"
+- Components and files must be uppercase
 
 ## Components
 
