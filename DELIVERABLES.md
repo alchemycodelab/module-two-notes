@@ -2,6 +2,10 @@
 ## From Scratch 🎯
 [Animal Farm](https://github.com/alchemycodelab/react-animal-farm-rubric/)
 
+[Busy Zoo](https://github.com/alchemycodelab/react-busy-zoo)
+[Fast Food Order Tool](https://github.com/alchemycodelab/fast-food-order-tool)
+[Movie List Manager](https://github.com/alchemycodelab/movie-list-maker)
+
 ## Bug Hunts 🐛
 
 [Bug Hunt: React Zodiac](https://github.com/alchemycodelab/react-zodiac-bug-hunt)
