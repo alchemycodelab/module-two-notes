@@ -8,6 +8,8 @@
 
 [Movie List Manager](https://github.com/alchemycodelab/movie-list-maker)
 
+[Beanie Babies Supabase List/Detail](https://github.com/alchemycodelab/list-detail-beanie-babies/blob/main/README.md)
+
 ## Bug Hunts 🐛
 
 [Bug Hunt: React Zodiac](https://github.com/alchemycodelab/react-zodiac-bug-hunt)
