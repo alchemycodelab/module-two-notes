@@ -8,7 +8,9 @@
 
 [Movie List Manager](https://github.com/alchemycodelab/movie-list-maker)
 
-[Beanie Babies Supabase List/Detail](https://github.com/alchemycodelab/list-detail-beanie-babies/blob/main/README.md)
+[Beanie Babies Supabase List/Detail](https://github.com/alchemycodelab/list-detail-beanie-babies)
+
+[Restaurant CRUD app](https://github.com/alchemycodelab/restaurant-CRUD)
 
 ## Bug Hunts 🐛
 
