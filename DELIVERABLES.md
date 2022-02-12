@@ -47,11 +47,11 @@
 
 [Half-Baked React Author Fetch](https://github.com/alchemycodelab/react-author-fetch-half-baked)
 
-[Half-Baked React Yelp Proxy]()
-
 [Half-Baked React Beanie Babies](https://github.com/alchemycodelab/react-beanie-babies-half-baked)
 
 [Half-Baked React Board Game Inventory](https://github.com/alchemycodelab/react-board-game-inventory-half-baked)
+
+[Half-Baked React Yelp Proxy](https://github.com/alchemycodelab/half-baked-api-proxy)
 
 [Half-Baked React Auth Shopping List](https://github.com/alchemycodelab/react-auth-shopping-list-half-baked)
 
