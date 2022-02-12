@@ -12,7 +12,7 @@
 
 [Restaurant CRUD app](https://github.com/alchemycodelab/restaurant-CRUD)
 
-[API Proxy App (Yelp, Weather, and Pokemon--finally in one place!](https://github.com/alchemycodelab/api-proxy-hub)
+[Yelp, Weather, Pokemon Search Hub](https://github.com/alchemycodelab/api-proxy-hub)
 
 ## Bug Hunts 🐛
 
