@@ -12,7 +12,7 @@
 
 [Canonical Async Board Game CRUD Inventory](https://github.com/alchemycodelab/board-game-inventory-react)
 
-[Canonical Async Proxy App](https://github.com/alchemycodelab/yelp-proxy-react)
+[Canonical Async Proxy App](https://github.com/alchemycodelab/api-proxy-hub)
 
 [Canonical Async Shopping List](https://github.com/alchemycodelab/auth-shopping-list-react)
 
