@@ -12,6 +12,8 @@
 
 [Restaurant CRUD app](https://github.com/alchemycodelab/restaurant-CRUD)
 
+[API Proxy App](https://github.com/alchemycodelab/api-proxy-hub)
+
 ## Bug Hunts 🐛
 
 [Bug Hunt: React Zodiac](https://github.com/alchemycodelab/react-zodiac-bug-hunt)
