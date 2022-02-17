@@ -1,4 +1,4 @@
-# Lecture 10 - Complex Crud with Joins
+# Lecture 10 - Testing
 
 ## Testing a click handler:
 
