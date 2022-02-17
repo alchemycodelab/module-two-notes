@@ -14,6 +14,8 @@
 
 [Yelp, Weather, Pokemon Search Hub](https://github.com/alchemycodelab/api-proxy-hub)
 
+[Movie Watchlist Maker](https://github.com/alchemycodelab/movie-list-maker)
+
 ## Bug Hunts 🐛
 
 [Bug Hunt: React Zodiac](https://github.com/alchemycodelab/react-zodiac-bug-hunt)
