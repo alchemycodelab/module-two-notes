@@ -16,6 +16,8 @@
 
 [Movie Watchlist Maker](https://github.com/alchemycodelab/movie-list-maker)
 
+[Business Admin Page](https://github.com/alchemycodelab/business-admin-page)
+
 ## Bug Hunts 🐛
 
 [Bug Hunt: React Zodiac](https://github.com/alchemycodelab/react-zodiac-bug-hunt)
