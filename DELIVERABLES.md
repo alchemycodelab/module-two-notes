@@ -65,3 +65,4 @@
 
 [Code Challenge: Async Display a List](https://github.com/alchemycodelab/async-display-a-list-practice-react-02)
 
+[Code Challenge: Customer Munge](https://github.com/alchemycodelab/code-challenge-web-02-customer-munge)
