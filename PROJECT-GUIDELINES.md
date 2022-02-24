@@ -2,12 +2,12 @@
 
 Your project should have the following features:
 
-- Deployed on netlify
+- Deployed on Netlify
 - Thoughtful CSS
 - Built in React, using hooks to manage state
 - Some group collaboration tool to organize features like Miro. (You'll link to this tool in your Canvas submission).
 - Supabase Auth and protected routes.
-- User should be able to create, read, update, and delete rows from a supabase database.
+- User should be able to create, read, update, and delete rows from a supabase database. You should write functions to manage this in `fetch-utils.js` or some similar file.
 - Rows in supabase should have a `user_id` property that links those rows to a particular user. RLS rules should be set up to let the user CRUD rows that have their `user_id`.
 - There should be some 'List/Detail' element to your app.
     - The user should be presented with a list fetched from supabase
