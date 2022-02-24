@@ -2,8 +2,9 @@
 
 Your project should have the following features:
 
-- Deployed on github pages
+- Deployed on netlify
 - Thoughtful CSS
+- Built in React, using hooks to manage state
 - Some group collaboration tool to organize features like Miro. (You'll link to this tool in your Canvas submission).
 - Supabase Auth and protected routes.
 - User should be able to create, read, update, and delete rows from a supabase database.
@@ -12,6 +13,8 @@ Your project should have the following features:
     - The user should be presented with a list fetched from supabase
     - When the user clicks on the list item, they are navigated to that item's detail page, using query parameters (fetch that item from supabase on load)
 - A "Built By" page detailing who worked on the project
+- Your app hits a netlify function to hit a 3rd party API that requires an Auth token.
+    - Ideally, you will store data from the 3rd party API in your supabase tables (like the movie watchlist app). I understand if this doesn't really fit your app, but I would like to see this.
 - One of the following:
     - At least two tables in supabase (not including a user's table)
         - One table should have a foreign key pointing to another table (like `participants` having a `workshop_id`)
