@@ -17,17 +17,6 @@ Here's how you can protect your `main` branch from unruly 'cowboy coding'. If yo
 ![](https://github.com/alchemycodelab/module-one-curriculum-base/raw/main/assets/branch-protection-1.png)
 ![](https://github.com/alchemycodelab/module-one-curriculum-base/raw/main/assets/branch-protection-2.png)
 
-## Merge conflict exercise
-
-- Merge conflicts are inevitable. They not a bad thing.
-> Merge conflicts in git happen when two branches were changed on the same line or in the same content of a file before a merge. If you just extend a file or append something, git usually just figures it out by itself. (https://stackoverflow.com/questions/33454605/intentionally-create-merge-conflict)
-
-- Here's what a merge conflict looks like in VSCode:
-
-![](./assets/merge-conflict.png)
-
-- When you get a merge conflict, simply choose to `Accept incoming change`, `Accept current change`, or `Accept both changes`. Make additional final changes if necessary, then make a commit to lock the decision in.
-
 # Team Questions
 1) What is our collaboration plan? How will we decide which features make it into the app? How will we organize and prioritize features? Will we use Miro, or some other group collaboration tool? How will we decide who works on what feature? How will we decide which features are best for mob or pair or individual work? How will we merge code into the main branch? What is our code review process?
 2) What will we do when a conflict comes up? When do we decide to ask for outside help?
