@@ -4,7 +4,7 @@
 
 Here's how you can add people as collaborators to your project. This way, they can make PRs to the group repo.
 
-![](./assets/manage-access.png)
+![](https://github.com/alchemycodelab/module-one-curriculum-base/raw/main/assets/manage-access.png)
 
 You'll also want to create a new organization for supabase and invite everybody to it.
 ![image](https://user-images.githubusercontent.com/16160135/149395484-304cb6fd-08f1-4bb9-ba4f-bb079442dbbd.png)
@@ -14,8 +14,8 @@ You'll also want to create a new organization for supabase and invite everybody 
 
 Here's how you can protect your `main` branch from unruly 'cowboy coding'. If you set up these rules, you cannot push directly to main, and you cannot merge a PR without at least 3 approvals.1
 
-![](./assets/branch-protection-1.png)
-![](./assets/branch-protection-2.png)
+![](https://github.com/alchemycodelab/module-one-curriculum-base/raw/main/assets/branch-protection-1.png)
+![](https://github.com/alchemycodelab/module-one-curriculum-base/raw/main/assets/branch-protection-2.png)
 
 ## Merge conflict exercise
 
