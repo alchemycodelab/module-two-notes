@@ -1,4 +1,5 @@
 # Grading Guidelines
+- and helpful hints for a great week!
 
 Your project should have the following features:
 
