@@ -10,7 +10,7 @@
 
 ## Components
 
-Take a look at the code below. Make a quick drawing predict what will be rendered when we make a react app out of this code.
+Take a look at the code below. Make a quick drawing to predict what will be rendered when we make a react app out of this code.
 
 ```js
 export default function App() {
