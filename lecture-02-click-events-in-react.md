@@ -12,6 +12,44 @@
     - `<div onClick={() => setItem(6)}>` works  
     - `<div onClick={setItem(6)}>` creates an infinite loop
 
+## Click events
+
+```js
+import React, { useState } from 'react';
+
+
+export default function Counter() {
+  const [count, setCount] = useState(0);
+
+  function handleIncrement() {
+    // this is how you can set the state to 50. On click, the state changes which automagically updates the DOM
+    setCount(count + 1);
+  }
+
+  return (
+    <>
+      <div id="count-el">{count}</div>
+      <button onClick={handleIncrement}>Increment</button>
+    </>
+    
+  );
+}
+```
+
+Note that we can do the same thing with an anonymous function:
+
+```js
+     <button onClick={() => setCount(count + 1)}>Increment</button>
+```
+
+But be careful! Do not call your function without wrapping it in an anonymous declaration. onClick always requires a declaration. If yo pass it a call, you will probably end up in an infinite loop (see below for an infinite loop).
+
+```js
+    // infinite loop!
+     <button onClick={setCount(count + 1)}>Increment</button>
+```
+
+
 ## Conditional rendering in react
 
 ```js
