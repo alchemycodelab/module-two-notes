@@ -12,6 +12,22 @@
     - `<div onClick={() => setItem(6)}>` works  
     - `<div onClick={setItem(6)}>` creates an infinite loop
 
+## Conditional rendering in react
+
+```js
+<div>
+     // if isLoading is truthy, render 'please wait'. if isLoading is falsey, render 'all done!'
+    {isLoading ? 'please wait . . . ' : 'all done!'}
+</div>
+```
+
+```js
+<div>
+    // if names is truthy, render and append. otherwise, do nothing
+    {names && name.map(name => <div>{name}</div>)}
+</div>
+```
+
 ## Pushing immutable to arrays
 
 ```js
