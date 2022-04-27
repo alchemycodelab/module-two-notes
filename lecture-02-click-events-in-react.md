@@ -36,6 +36,6 @@ const newArray = [...oldArray, newItem]
 setArrayInState(newArray)
 ```
 
-## From Scratch Demo: Cookie Clicker
+## From Scratch Demo: Busy Zoo
 
 ## Half-Baked Project: Busy Town
