@@ -24,15 +24,29 @@ export default function App() {
     )
 }
 
-function Header(props) {
-    return <h1>Welcome {props.username}</h1>
+function Header({ username }) {
+    return <h1>Welcome {username}</h1>
 }
 
-function Footer(props) {
-    return <p>Contact me at {props.phone}</p>
+function Footer({ phone }) {
+    return <p>Contact me at {phone}</p>
 }
 
 function Main() {
     return <section>This is my first react app</section>
+}
+```
+
+# Render and append
+
+```js
+export default function DogList({ dogs }) {
+  return (
+    <div className='dog-list'>
+      {
+        dogs.map((dog) => <DogItem key={dog.name} {...dog} />)
+      }
+    </div>
+  );
 }
 ```
