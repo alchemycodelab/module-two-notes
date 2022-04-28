@@ -37,7 +37,7 @@ function Main() {
 }
 ```
 
-# Render and append
+## Render and append
 
 ```js
 export default function DogList({ dogs }) {
