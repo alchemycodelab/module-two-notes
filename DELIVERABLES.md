@@ -67,6 +67,6 @@
 
 [Code Challenge: Customer Munge](https://github.com/alchemycodelab/code-challenge-web-02-customer-munge)
 
-
 [Code Challenge: Array Methods](https://github.com/alchemycodelab/react-spotlight-array-methods)
+
 [Code Challenge: Arrays Objects](https://github.com/alchemycodelab/react-spotlight-arrays-objects)
