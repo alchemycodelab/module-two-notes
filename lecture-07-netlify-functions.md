@@ -5,6 +5,8 @@
 
 <img width="1290" alt="image" src="https://user-images.githubusercontent.com/16160135/169092943-0a0def87-b842-4211-97c9-d1bb310a70fc.png">
 
+## Hitting our netlify function from the front end
+
 ```js
 
 export async function getData(searchFilter) {
@@ -16,7 +18,7 @@ export async function getData(searchFilter) {
 }
 ```
 
-`my-function.js`
+## Hitting an API from our netlify function
 ```js
 const fetch = require('node-fetch');
 require('dotenv').config();
