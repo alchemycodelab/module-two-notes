@@ -1,6 +1,139 @@
 # Lecture 8 - React Libraries
 
-## Testing a click handler:
+## Don't reinvent the wheel
+- Most front-end problems are common to all projects.
+- Somebody has already solved it: go find the library
+- `npm i cool-library`
+
+## material-ui
+
+[Material UI Docs](https://mui.com/material-ui/getting-started/usage/)
+
+```js
+import { Card, CardContent, Typography, Button, CardActionArea } from '@mui/material';
+
+export default function CustomCard({ person }) {
+  return (
+    <Card className="card">
+      <CardContent>
+        <Typography variant="h3" color={person.favorite_color}>
+          {person.first_name} {person.last_name}
+        </Typography>
+        <Typography variant="h6">
+         has a {person.pet}
+        </Typography>
+      </CardContent>
+      <CardActionArea className="action-area">
+        <Button onClick={() => alert(person.car_make)}>
+            Click to see their car
+        </Button>
+      </CardActionArea>
+      <CardActionArea className="action-area">
+        <Button onClick={() => alert(person.email)}>
+            Click to see their email
+        </Button>
+      </CardActionArea>
+    </Card>
+  );
+}
+```
+
+## Material Table
+
+[Material Table Docs](https://material-table.com/#/docs/get-started)
+
+```js
+import React from 'react';
+import MaterialTable from 'material-table';
+
+function makeColumns(object) {
+  if (Array.isArray(object)) {
+    object = object[0];
+  }
+
+  return Object.keys(object).map(key => ({ field: key, title: key }));
+}
+
+export default function CustomTable({ data }) {
+  return (
+    <div style={{ maxWidth: '100%' }}>
+      <MaterialTable
+        columns={makeColumns(data)}
+        data={data}
+        title="My Custom Table"
+        options={{  
+          headerStyle: { 
+            background: 'lightgreen',
+          },
+          rowStyle: { 
+            background: 'lightgrey',
+          }
+        }
+        }
+        localization={{
+          pagination: {
+            nextAriaLabel: 'next',
+            previousAriaLabel: 'prev'
+          } 
+        }}
+
+      />
+    </div>
+  );
+}
+```
+
+## Victory charts
+
+[Victory Docs](https://formidable.com/open-source/victory/docs)
+
+```js
+import {
+  VictoryBar,
+  VictoryChart,
+  VictoryLine,
+  VictoryPie,
+} from 'victory';
+
+export default function CustomCharts({ data }) {
+  const mungedData = data.map(item => ({
+    x: item.first_name,
+    y: item.age,
+  })).slice(0, 5);
+    
+  return (
+    <section className='charts'>
+      <div className="chart-block">
+        <VictoryChart
+          domainPadding={10}
+        >
+          <VictoryBar
+            data={mungedData}
+          />
+        </VictoryChart>
+      </div>
+      <div className="chart-block">
+        <VictoryChart
+          domainPadding={10}
+        >
+          <VictoryLine
+            data={mungedData}
+          />
+        </VictoryChart>
+
+      </div>
+      <div className="chart-block">
+        <VictoryPie
+          data={mungedData}
+        />
+      </div>
+    </section>
+  );
+}
+```
+## React Testing Library
+
+### Testing a click handler:
 
 ```js
 import { addToWatchList } from './services/fetch-utils';
