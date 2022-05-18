@@ -1,4 +1,4 @@
-# Lecture 09 - Context
+# Lecture 10 - Context
 
 the idea behind context is to avoid prop drilling. If we put data in context, it's a pain to set up, but it will be available anywhere in the app without having to annoyingly pass it around as props.
 
