@@ -1,4 +1,4 @@
-# Lecture 07 - Netlify Functions and Third-Party API
+# Lecture 07 - Netlify Functions and Third-Party APIs
 
 ## Gotchas
 - `npm run dev` is how we serve up react with our netlify functions.
