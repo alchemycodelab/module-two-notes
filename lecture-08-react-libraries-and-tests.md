@@ -1,4 +1,4 @@
-# Lecture 10 - Testing
+# Lecture 8 - React Libraries
 
 ## Testing a click handler:
 
