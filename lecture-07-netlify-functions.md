@@ -1,5 +1,13 @@
 # Lecture 07 - Netlify Functions and Third-Party APIs
 
+## We are just data plumbers
+
+How do we get data from the API to the user?
+- request/response cycle
+
+How do we get data from the user to the API?
+- `GET` query parameters (`https://my-api.com?searchFilter=jaws`)
+- `POST` body
 
 <img width="1290" alt="image" src="https://user-images.githubusercontent.com/16160135/169093080-eac3ecbd-7de9-4a7e-8343-c4f4007557fd.png">
 
@@ -57,6 +65,7 @@ exports.handler = async (event, context) => {
 - You might need CORS headers to prevent chrome from stopping the response from your netlify function.
 - Examine your API response (then your netlify function response) in the console. Where does the array live at each step?
 - In your netlify function, you can access query parameters from the request by using `event.queryStringParameters.myKey`
+- With `yelp`, the api key goes in the header under `Authorization: Bearer MY_KEY`. This is weird, but it's also a totally uncommon pattern in APIs.
 - If you name it correctly, by default your netlify function will live at `http://localhost:8888/.netlify/functions/pokemon?name=char`. Note that this string will not work on the deployment since the URL will not be `localhost` there. You can make the call like so below to default to the correct deployment domain name:
 
 ```js
