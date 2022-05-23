@@ -16,8 +16,7 @@
 
 [Business Admin Page](https://github.com/alchemycodelab/business-admin-page)
 
-[Movie Watchlist Maker](https://github.com/alchemycodelab/movie-list-maker)
-
+[Movie Favorites Page](https://github.com/alchemycodelab/movie-watcher-demo)
 
 ## Bug Hunts 🐛
 
