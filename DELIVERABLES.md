@@ -14,9 +14,10 @@
 
 [Yelp, Weather, Pokemon Search Hub](https://github.com/alchemycodelab/api-proxy-hub)
 
+[Business Admin Page](https://github.com/alchemycodelab/business-admin-page)
+
 [Movie Watchlist Maker](https://github.com/alchemycodelab/movie-list-maker)
 
-[Business Admin Page](https://github.com/alchemycodelab/business-admin-page)
 
 ## Bug Hunts 🐛
 
