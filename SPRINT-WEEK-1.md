@@ -45,6 +45,7 @@ Your project should have the following features:
 - A "Built By" page detailing who worked on the project
 - Your app hits a netlify function to hit a 3rd party API that requires an Auth token. The function that manages this should be in `fetch-utils.js` or something similar. The netlify function should accept and use query parameters (or POST body if you're feeling ambitious).
     - Ideally, you will store data from the 3rd party API in your supabase tables (like the movie watchlist app). I understand if this doesn't really fit your app, but I would like to see this.
+- Your app should integrate a 3rd party API using a netlify function. You may or may not store this data in your supabase instance.
 - One of the following:
     - At least two tables in supabase (not including a user's table)
         - One table should have a foreign key pointing to another table (like `participants` having a `workshop_id`)
