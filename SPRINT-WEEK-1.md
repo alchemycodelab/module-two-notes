@@ -46,7 +46,7 @@ Your project should have the following features:
 - Your app hits a netlify function to hit a 3rd party API that requires an Auth token. The function that manages this should be in `fetch-utils.js` or something similar. The netlify function should accept and use query parameters (or POST body if you're feeling ambitious).
     - Ideally, you will store data from the 3rd party API in your supabase tables (like the movie watchlist app). I understand if this doesn't really fit your app, but I would like to see this.
 - One of the following:
-    - At least two tables in supabase (not including a user's table)
+    - At least two tables in supabase (not including a user's table) with joins linking them together
         - One table should have a foreign key pointing to another table (like `participants` having a `workshop_id`)
     - Your app is a sufficiently complex "game" that stores game state in supabase.
 
