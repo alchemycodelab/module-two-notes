@@ -41,7 +41,7 @@ Your project should have the following features:
 - Rows in supabase should have a `user_id` property that links those rows to a particular user. RLS rules should be set up to let the user CRUD rows that have their `user_id`.
 - There should be some 'List/Detail' element to your app.
     - The user should be presented with a list fetched from supabase
-    - When the user clicks on the list item, they are navigated to that item's detail page, using query parameters (fetch that item from supabase on load)
+    - When the user clicks on the list item, they are navigated to that item's detail page, using `react-router-dom` (fetch that item from supabase on load)
 - A "Built By" page detailing who worked on the project
 - Your app hits a netlify function to hit a 3rd party API that requires an Auth token. The function that manages this should be in `fetch-utils.js` or something similar. The netlify function should accept and use query parameters (or POST body if you're feeling ambitious).
     - Ideally, you will store data from the 3rd party API in your supabase tables (like the movie watchlist app). I understand if this doesn't really fit your app, but I would like to see this.
