@@ -46,6 +46,6 @@ oldArray.push(newItem)
 setArrayInState([...newArray])
 ```
 
-## From Scratch Demo: Character Designer
+## From Scratch Demo: Fast Food order tool
 
-## Half-Baked Project: City Builder
+## Half-Baked Project: Tourism Postcard Builder
