@@ -1,5 +1,12 @@
 # Lecture 03 - Forms and Callbacks in React
 
+## Callbacks
+
+- When parents talk to children, we use props.
+- When children talk to parents, we use callbacks.
+- Think of a callback like a debit card. If we want to change the state of a bank account, only the parent can do that.
+- However, if a parent gives a child a debit card, that debit card can be used to change the state of the parent's bank account.
+
 ```js
 import React from 'react';
 
@@ -14,8 +21,6 @@ export default function InstructionsForm({ handleSubmit, setInstructionInForm })
 ```
 
 Looking at the above component, what do you think the data types of `handleSubmit` and `setInstructionInForm` are?
-
-## Callbacks
 
 
 ## Immutability in react state
