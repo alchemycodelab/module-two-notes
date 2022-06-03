@@ -46,7 +46,7 @@ function filterMovies() {
 ```
 
 ## useEffect Gotcha
-Try though I might, I cannot avoid showing you the weirdest bit of react: the `useEffect` dependenct array. Without it, we have a breaking bug:
+Try though I might, I cannot avoid showing you the weirdest bit of react: the `useEffect` dependency array. Without it, we have a breaking bug:
 
 ### The bug
 - The problem: when I delete a movie from a filtered list, it does not delete from the view. That's because we render filtered movies, but we delete from all movies
