@@ -1,4 +1,4 @@
-# Lecture 8 - React Libraries
+# Lecture 9 - React Libraries
 
 ## Don't reinvent the wheel
 - Most front-end problems are common to all projects.
