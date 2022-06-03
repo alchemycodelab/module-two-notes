@@ -2,7 +2,7 @@
 
 ## Double token weirdness
 - We need to hold onto the token in state, even though it's right there in localstorage
-- Otherwise we lost the token occasionally while developing
+- Otherwise we don't get free DOM updates
 
 ## Protecting routes in React
      ```js   <Switch>
