@@ -1,4 +1,4 @@
-# Lecture 07 - Netlify Functions and Third-Party APIs
+# Lecture 08 - Netlify Functions and Third-Party APIs
 
 ## We are just data plumbers
 
