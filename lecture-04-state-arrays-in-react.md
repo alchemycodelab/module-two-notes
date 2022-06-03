@@ -7,7 +7,7 @@
 Note that to filter movies correctly, we'll need to keep track of two arrays: the filtered movies, and all movies
 - If we don't keep track of two arrays, we will lose all of our movies once they filter away.
 - So our state will look something like this:
-- 
+
 ```js
   const [currentFilter, setFilter] = useState(''); 
   const [movies, setMovies] = useState([]); 
