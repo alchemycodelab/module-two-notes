@@ -4,8 +4,48 @@
 
 ## Half-Baked Project: Movie List Maker
 
-## Gotcha
+Note that to filter movies correctly, we'll need to keep track of two arrays: the filtered movies, and all movies
+- If we don't keep track of two arrays, we will lose all of our movies once they filter away.
+- So our state will look something like this:
+- 
+```js
+  const [currentFilter, setFilter] = useState(''); 
+  const [movies, setMovies] = useState([]); 
+  const [filteredMovies, setFilteredMovies] = useState([]); 
+```
 
+## Array methods
+We'll need to filter items on changes, and delete items on click. 
+- Let's talk about filtering and deleting items from arrays.
+
+```js
+function filterMovies() {
+    const filteredMovies = movies.
+      filter(movie => 
+        movie.title.includes(currentFilter));
+        // || movie.director.includes(query) 
+        // || movie.year < query 
+        // || movie.color === query);
+  // then inject that into state
+  // filter is immutable so we don't need to spread
+    setFilteredMovies(filteredMovies);
+}
+```
+
+```js
+  function deleteMovie(title) {
+    // use this id to find the index of the movie in state
+    const index = movies.findIndex(movie => movie.title === title);
+
+    // use this index to splice out that movie in state
+    movies.splice(index, 1); // delete this many at that index
+
+    // update state with this updated array (use spread for immutability)
+    setMovies([...movies]);
+  }
+```
+
+## useEffect Gotcha
 Try though I might, I cannot avoid showing you the weirdest bit of react: the `useEffect` dependenct array. Without it, we have a breaking bug:
 
 ### The bug
