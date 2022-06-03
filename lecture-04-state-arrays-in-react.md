@@ -49,7 +49,7 @@ function filterMovies() {
 Try though I might, I cannot avoid showing you the weirdest bit of react: the `useEffect` dependency array. Without it, we have a breaking bug:
 
 ### The bug
-- The problem: when I delete a movie from a filtered list, it does not delete from the view. That's because we render filtered movies, but we delete from all movies
+- The problem: when I delete a movie from a filtered list, it does not delete from the view. That's because we render filtered movies, but we delete from all movies without refiltering to make sure the deleted movie isn't still in the filtered movies array.
 - The solution: set it up so that whenever a movie is deleted, we filter again.
 - That means we need to filter our movies whenever the state of movies changes. After all, if you delete a movie, that only deletes it from the movies, not the filtered array, which can cause problems when you try to delete something while the filter is active. We can achieve this using a useEffect
 - So without useEffect, there is no good way to solve this bug. but you can still get full credit without solving the bug
