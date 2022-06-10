@@ -2,6 +2,11 @@
 
 ## Gotchas!
 - `className`
+- casing really, really matters! 
+    - components get capitalized
+    - component files get capitalized
+    - the CSS files get capitalized
+    - if you try to change this too late, git will not notice and deploys will break  
 - importing images vs public directory
     - background images in CSS are weird and must always live in `src`
 - inline styles
