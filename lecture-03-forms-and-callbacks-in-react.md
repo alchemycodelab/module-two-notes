@@ -1,5 +1,10 @@
 # Lecture 03 - Forms and Callbacks in React
 
+## Form State
+
+- on every keystroke, the state of the form changes
+- we must store this state ourselves in react, otherwise we lose the react magic
+
 ## Callbacks
 
 - When parents talk to children, we use props.
