@@ -6,7 +6,7 @@
 
 [Fast Food Order Tool](https://github.com/alchemycodelab/fast-food-order-tool)
 
-[Movie List Manager](https://github.com/alchemycodelab/movie-list-maker)
+[Movie List Manager](https://github.com/alchemycodelab/react-02-movie-list-demo)
 
 [Beanie Babies Supabase List/Detail](https://github.com/alchemycodelab/list-detail-beanie-babies)
 
