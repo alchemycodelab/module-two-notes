@@ -8,7 +8,7 @@
 
 [Movie List Manager](https://github.com/alchemycodelab/react-02-movie-list-demo)
 
-[Beanie Babies Supabase List/Detail](https://github.com/alchemycodelab/list-detail-beanie-babies)
+[Beanie Babies Supabase List/Detail](https://github.com/alchemycodelab/react-02-from-scratch-list-detail-beanie-babies)
 
 [Restaurant CRUD app](https://github.com/alchemycodelab/restaurant-CRUD)
 
