@@ -62,7 +62,6 @@ exports.handler = async (event, context) => {
 ## Gotchas
 - `npm run dev` is how we serve up react with our netlify functions.
 - If you're not on `node` version 14, 16, or 18 (the long-term suppport versions are always even numbers) something might break.
-- You might need CORS headers to prevent chrome from stopping the response from your netlify function.
 - Examine your API response (then your netlify function response) in the console. Where does the array live at each step?
 - In your netlify function, you can access query parameters from the request by using `event.queryStringParameters.myKey`
 - With `yelp`, the api key goes in the header under `Authorization: Bearer MY_KEY`. This is weird, but it's also a totally uncommon pattern in APIs.
