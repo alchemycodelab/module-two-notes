@@ -64,7 +64,7 @@ exports.handler = async (event, context) => {
 - If you're not on `node` version 14, 16, or 18 (the long-term suppport versions are always even numbers) something might break.
 - Examine your API response (then your netlify function response) in the console. Where does the array live at each step?
 - In your netlify function, you can access query parameters from the request by using `event.queryStringParameters.myKey`
-- With `yelp`, the api key goes in the header under `Authorization: Bearer MY_KEY`. This is weird, but it's also a totally uncommon pattern in APIs.
+- With `yelp`, the api key goes in the header under `Authorization: Bearer MY_KEY`. This is weird, but it's also a common pattern in APIs.
 - If you name it correctly, by default your netlify function will live at `http://localhost:8888/.netlify/functions/pokemon?name=char`. Note that this string will not work on the deployment since the URL will not be `localhost` there. You can make the call like so below to default to the correct deployment domain name:
 
 ```js
